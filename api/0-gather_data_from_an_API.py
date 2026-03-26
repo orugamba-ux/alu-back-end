@@ -5,6 +5,7 @@ using the JSONPlaceholder REST API and displays completed tasks.
 """
 import sys
 import requests
+
 if __name__ == "__main__":
     user_id = int(sys.argv[1])
     user_url = ("https://jsonplaceholder.typicode.com/users/{}"
@@ -22,4 +23,4 @@ if __name__ == "__main__":
         user.get("name"), done_tasks, total_tasks))
     for task in todos:
         if task.get("completed") is True:
-          print("\t {}".format(task.get("title")))
+            print("\t {}".format(task.get("title")))
