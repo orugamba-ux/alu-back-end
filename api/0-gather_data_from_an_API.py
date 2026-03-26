@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+Retrieves the TODO list progress for a given employee ID
+using the JSONPlaceholder REST API and displays completed tasks.
+"""
 import sys
 import requests
 if __name__ == "__main__":
@@ -17,3 +21,7 @@ if __name__ == "__main__":
     for task in todos:
         if task.get("completed") is True:
             print("\t {}".format(task.get("title")))
+
+            """# ALU Back-End Project
+This is a  project that contains Python scripts for gathering data from an API and exporting it to CSV and JSON formats.
+    """
