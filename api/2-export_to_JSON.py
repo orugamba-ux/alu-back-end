@@ -57,4 +57,4 @@ if __name__ == "__main__":
 
     # Write the data to a JSON file named <user_id>.json
     with open("{}.json".format(user_id), "w") as f:
-        json.dump(data, f)
+    json.dump(data, f)
