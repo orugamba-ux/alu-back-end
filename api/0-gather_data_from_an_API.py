@@ -22,4 +22,5 @@ if __name__ == "__main__":
     print("Employee {} is done with tasks({}/{}):".format(
         user.get("name"), done_tasks, total_tasks))
     for task in todos:
-        if task.get("completed") is True:print("\t {}".format(task.get("title")))
+        if task.get("completed") is True:
+            print("\t {}".format(task.get("title")))
