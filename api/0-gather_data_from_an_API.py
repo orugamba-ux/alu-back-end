@@ -1,9 +1,4 @@
 #!/usr/bin/python3
-"""
-0-gather_data_from_an_API.py
-Retrieves the TODO list progress for a given employee ID
-using the JSONPlaceholder REST API and displays completed tasks.
-"""
 import sys
 import requests
 if __name__ == "__main__":
